@@ -42,10 +42,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Add Cards View-->
         <scene sceneID="UWn-cW-sjU">
             <objects>
-                <viewController id="7B8-Ig-bxw" sceneMemberID="viewController">
+                <viewController id="7B8-Ig-bxw" customClass="AddCardsView" customModule="Solid_Butter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="znO-Ix-RTr"/>
                         <viewControllerLayoutGuide type="bottom" id="xun-Ty-xhH"/>
@@ -177,10 +177,10 @@
             </objects>
             <point key="canvasLocation" x="1075.5" y="427"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View-->
         <scene sceneID="jVO-Py-NMM">
             <objects>
-                <viewController id="Qqq-MF-Ksi" sceneMemberID="viewController">
+                <viewController id="Qqq-MF-Ksi" customClass="ResultView" customModule="Solid_Butter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gOf-FC-S9v"/>
                         <viewControllerLayoutGuide type="bottom" id="odY-He-GDx"/>
@@ -195,10 +195,10 @@
             </objects>
             <point key="canvasLocation" x="2358" y="429"/>
         </scene>
-        <!--View Controller-->
+        <!--Play View-->
         <scene sceneID="Ew7-0g-YTS">
             <objects>
-                <viewController id="xN1-Eu-TKi" sceneMemberID="viewController">
+                <viewController id="xN1-Eu-TKi" customClass="PlayView" customModule="Solid_Butter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Owz-5f-GFg"/>
                         <viewControllerLayoutGuide type="bottom" id="feG-es-j6i"/>
