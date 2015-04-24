@@ -13,6 +13,7 @@
 		372E9AB31AE9DA6100AE617D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372E9AB21AE9DA6100AE617D /* Images.xcassets */; };
 		372E9AB61AE9DA6100AE617D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 372E9AB41AE9DA6100AE617D /* LaunchScreen.xib */; };
 		372E9AC21AE9DA6100AE617D /* Solid_ButterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E9AC11AE9DA6100AE617D /* Solid_ButterTests.swift */; };
+		8423AB9C1AE9DBF9004B01E7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423AB9B1AE9DBF9004B01E7 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		372E9ABB1AE9DA6100AE617D /* Solid ButterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solid ButterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		372E9AC01AE9DA6100AE617D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		372E9AC11AE9DA6100AE617D /* Solid_ButterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solid_ButterTests.swift; sourceTree = "<group>"; };
+		8423AB9B1AE9DBF9004B01E7 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				372E9AB21AE9DA6100AE617D /* Images.xcassets */,
 				372E9AB41AE9DA6100AE617D /* LaunchScreen.xib */,
 				372E9AA91AE9DA6100AE617D /* Supporting Files */,
+				8423AB9B1AE9DBF9004B01E7 /* Model.swift */,
 			);
 			path = "Solid Butter";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8423AB9C1AE9DBF9004B01E7 /* Model.swift in Sources */,
 				372E9AAE1AE9DA6100AE617D /* ViewController.swift in Sources */,
 				372E9AAC1AE9DA6100AE617D /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				372E9AC71AE9DA6100AE617D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		372E9AC81AE9DA6100AE617D /* Build configuration list for PBXNativeTarget "Solid ButterTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				372E9ACA1AE9DA6100AE617D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
