@@ -24,6 +24,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="177" y="285" width="30" height="30"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="7B8-Ig-bxw" kind="show" id="NIt-ZY-k1z"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -56,12 +59,15 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4O3-06-TUy">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Add">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="177" y="91" width="46" height="30"/>
+                                    <rect key="frame" x="177" y="91" width="30" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="addButton:" destination="7B8-Ig-bxw" eventType="touchUpInside" id="5ZF-aY-bhH"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="add cards" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgv-GV-het">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -78,7 +84,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="53" y="118" width="78" height="21"/>
+                                    <rect key="frame" x="34" y="118" width="273" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team Two" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grV-ew-aGV">
@@ -131,6 +137,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="292" y="230" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="teamTwoNameButton:" destination="7B8-Ig-bxw" eventType="touchUpInside" id="pFP-jF-VYn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJ9-K3-eGu">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -140,6 +149,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="53" y="223" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="teamOneNameButton:" destination="7B8-Ig-bxw" eventType="touchUpInside" id="g9I-s5-zpE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -172,6 +184,14 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="addCardsTextField" destination="TC9-dA-diV" id="hwI-RU-RlM"/>
+                        <outlet property="teamOneNameLabel" destination="v6L-hY-QQs" id="kXJ-io-oeW"/>
+                        <outlet property="teamOneNameTextField" destination="nFA-Hk-FiE" id="Txf-We-Nde"/>
+                        <outlet property="teamTwoNameLabel" destination="grV-ew-aGV" id="aGZ-Aa-o4x"/>
+                        <outlet property="teamTwoNameTextField" destination="rzq-1P-03s" id="iqO-Kw-3Uh"/>
+                        <outlet property="testLabel" destination="G0u-jC-5Lg" id="x1i-XR-76e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WcH-jg-MnJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

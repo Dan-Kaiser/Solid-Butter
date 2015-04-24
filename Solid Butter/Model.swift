@@ -11,9 +11,11 @@ import Foundation
 
 private let _sharedInstance = Model()
 class Model {
-    var array = [String?]()
+    var array = [String]()
     var teamOne: String?
     var teamTwo: String?
+    var teamNameOne: String?
+    var teamNameTwo: String?
     var teamOneScore: Int?
     var teamTwoScore: Int?
     
