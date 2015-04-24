@@ -13,6 +13,9 @@
 		372E9AB31AE9DA6100AE617D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372E9AB21AE9DA6100AE617D /* Images.xcassets */; };
 		372E9AB61AE9DA6100AE617D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 372E9AB41AE9DA6100AE617D /* LaunchScreen.xib */; };
 		372E9AC21AE9DA6100AE617D /* Solid_ButterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E9AC11AE9DA6100AE617D /* Solid_ButterTests.swift */; };
+		3791B2931AE9E1030095DD1B /* AddCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791B2921AE9E1030095DD1B /* AddCardsView.swift */; };
+		3791B2951AE9E1320095DD1B /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791B2941AE9E1320095DD1B /* PlayView.swift */; };
+		3791B2971AE9E1480095DD1B /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791B2961AE9E1480095DD1B /* ResultView.swift */; };
 		8423AB9C1AE9DBF9004B01E7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423AB9B1AE9DBF9004B01E7 /* Model.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,9 @@
 		372E9ABB1AE9DA6100AE617D /* Solid ButterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solid ButterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		372E9AC01AE9DA6100AE617D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		372E9AC11AE9DA6100AE617D /* Solid_ButterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solid_ButterTests.swift; sourceTree = "<group>"; };
+		3791B2921AE9E1030095DD1B /* AddCardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardsView.swift; sourceTree = "<group>"; };
+		3791B2941AE9E1320095DD1B /* PlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		3791B2961AE9E1480095DD1B /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		8423AB9B1AE9DBF9004B01E7 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +90,9 @@
 				372E9AAF1AE9DA6100AE617D /* Main.storyboard */,
 				372E9AB21AE9DA6100AE617D /* Images.xcassets */,
 				372E9AB41AE9DA6100AE617D /* LaunchScreen.xib */,
+				3791B2921AE9E1030095DD1B /* AddCardsView.swift */,
+				3791B2941AE9E1320095DD1B /* PlayView.swift */,
+				3791B2961AE9E1480095DD1B /* ResultView.swift */,
 				372E9AA91AE9DA6100AE617D /* Supporting Files */,
 				8423AB9B1AE9DBF9004B01E7 /* Model.swift */,
 			);
@@ -217,7 +226,10 @@
 			files = (
 				8423AB9C1AE9DBF9004B01E7 /* Model.swift in Sources */,
 				372E9AAE1AE9DA6100AE617D /* ViewController.swift in Sources */,
+				3791B2931AE9E1030095DD1B /* AddCardsView.swift in Sources */,
+				3791B2951AE9E1320095DD1B /* PlayView.swift in Sources */,
 				372E9AAC1AE9DA6100AE617D /* AppDelegate.swift in Sources */,
+				3791B2971AE9E1480095DD1B /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
